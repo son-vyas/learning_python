@@ -1,6 +1,6 @@
 ## Task
 
-Design a CLI tool which should print firstname and lastname of the given name.
+Design a CLI tool which should print firstname, lastname and given name itself from the given input.
 
 ### Conditions
 
@@ -12,4 +12,7 @@ Design a CLI tool which should print firstname and lastname of the given name.
 
 ***Implementation should be done using argparse only***
 
+### Implementation
+
+Argparse is python module to parse the command line arguments. Program defines the command line arguments and argparse figures out how to parse them through sys.argv. It also gifts us with help message on its own.
 
