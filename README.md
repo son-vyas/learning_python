@@ -14,5 +14,17 @@ Design a CLI tool which should print firstname, lastname and given name itself f
 
 ### Implementation
 
+
+#### Introduction
+
 Argparse is python module to parse the command line arguments. Program defines the command line arguments and argparse figures out how to parse them through sys.argv. It also gifts us with help message on its own.
 
+#### Steps to approach the task
+
+*** How exactly does argparse parse the CLI arguments? ***
+
+    import argparse
+    parser = argparse.ArgumentParser()
+
+First step, is creating ArgumentParser object. This object can thereby hold all the information which can be parsed in python data types. Every command line tool expects positional or optional arguments. Hence, we also expect our tool to behave in similar fashion.
+Second step is adding arguments to the parser.
